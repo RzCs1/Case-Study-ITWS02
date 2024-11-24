@@ -12,7 +12,6 @@ document.addEventListener("DOMContentLoaded", function () {
         const email = document.getElementById('email').value.trim();
         const message = document.getElementById('message').value.trim();
 
-        // Validation
         if (!name) {
             formMessage.textContent = 'Please enter your name.';
             event.preventDefault(); // Prevent form submission

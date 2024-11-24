@@ -19,16 +19,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function activateInElements() {
     animatedInElements.forEach(element => {
-      const boxTop = element.getBoundingClientRect().top; // Get the top position of the element
+      const boxTop = element.getBoundingClientRect().top; 
 
       if (boxTop < window.innerHeight) {
-        element.classList.add('active'); // Add active class to trigger animation
+        element.classList.add('active'); 
       }
     });
   }
 
-  // Initial checks
   window.addEventListener('scroll', checkScroll);
-  checkScroll(); // Check scroll position for animationScroll elements
-  activateInElements(); // Activate animation for already visible elements
+  checkScroll(); 
+  activateInElements(); 
 });
