@@ -23,18 +23,18 @@ const gamerlist = [
       socialmedia: {
         socialmedia2: {
           socialmediaplatform: `Facebook`,
-          socialmedialink: `facebook.com`,
+          socialmedialink: `https://www.facebook.com/share/1EkW9aJbTz/`,
           socialmedianame: `Renz censon`,
         },
         socialmedia4: {
           socialmediaplatform: `Instagram`,
-          socialmedialink: `instagram.com`,
-          socialmedianame: `@RZCS`,
+          socialmedialink: `https://www.instagram.com/invites/contact/?igsh=4vofumrp71ig&utm_content=r6ihapf`,
+          socialmedianame: `rz.chi`,
         },
-        socialmedia5: {
+        socialmedia3: {
           socialmediaplatform: `Email Address`,
-          socialmedialink: `email@email.com`,
-          socialmedianame: `renz@cyberduo.com`,
+          socialmedialink: `mailto:renzcenson0207@gmail.com`,
+          socialmedianame: `renzcenson0207@gmail.com`,
         },
       },
     },
@@ -68,10 +68,11 @@ const gamerlist = [
         socialmedia2: {
           socialmediaplatform: `Instagram`,
           socialmedialink: `https://www.instagram.com/knjvnrcn_?igsh=MWZwa2s4MmNyc2ZsMg==`,
-          socialmedianame: `@knjvnrcn_`,
+          socialmedianame: `knjvnrcn_`,
         },
         socialmedia3: {
           socialmediaplatform: `Email Address`,
+          socialmedialink: `mailto:kenjiveneracion@gmail.com`,
           socialmedianame: `kenjiveneracion@gmail.com`,
         },
       },
