@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/batman-forever" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="icon" href="../img/logo/web-logo2.png" type="image/icon">
+    <title>Mobile Legends</title>
+  </head>
+<body>
+  <nav></nav>
+
+  <div class="content">
+    <div class="container-size">
+      <h2 class="sub-title animation_in">Mobile Legends</h2>
+
+      <div id="intro-game">
+        
+        <div class="video-descrip animation_in">
+          <div id="description-game" class="description-container">
+            <!-- <p>Mobile Legends is a mobile game developed by Moonton Studios. The game is available on iOS and Android. It is a 2D side-scrolling beat 'em up game. The game has a story mode and a free-to-play mode. The game features a total of 10 levels, with each level having a boss battle. The game also features a multiplayer mode, where players can compete against each other in a variety of game modes. Mobile Legends has received positive reviews for its gameplay, graphics, and sound. It has been praised for its addictive gameplay and challenging gameplay. Overall, Mobile Legends is a highly recommended game for fans of beat 'em ups.</p> -->
+          </div>
+
+          <div id="trailer-video" class="video-container animation_in">
+            <!-- <video id="game-video" src="../video/trailer/mlbb-trailer.mp4" title="MLBB">
+              Your browser does not support the video tag.
+            </video>
+            
+            <button class="play-btn-overlay">►</button>
+            
+            <div class="video-controls">
+              <div class="button-wrapper">
+                <button class="play-pause-btn">Play</button>
+                <button class="mute-btn">Mute</button>
+                <button class="fullscreen-btn">Fullscreen</button>
+              </div>
+              <span class="duration">00:00 / 00:00</span>
+              <input type="range" class="progress-bar" value="0" step="1" min="0" max="100">
+              <p>Mobile Legends Bang Bang Trailer</p>
+            </div> -->
+          </div>
+        </div>
+        
+        <div id="game-images" class="image-container animation_in">
+          <!-- <img src="../img/games/mlbb-thumbnail.avif" alt="Mobile Legends" class="thumbnail">
+          <img src="../img/games/mlbb-thumbnail.avif" alt="Mobile Legends" class="thumbnail">
+          <img src="../img/games/mlbb-thumbnail.avif" alt="Mobile Legends" class="thumbnail">
+          <img src="../img/games/mlbb-thumbnail.avif" alt="Mobile Legends" class="thumbnail">
+          <img src="../img/games/mlbb-thumbnail.avif" alt="Mobile Legends" class="thumbnail">
+          <img src="../img/games/mlbb-thumbnail.avif" alt="Mobile Legends" class="thumbnail"> -->
+        </div>
+        
+        <!-- Game Images Modal -->
+        <div id="game-images-modal" class="image-modal">
+          <span class="close-btn">&times;</span>
+          <button id="prev-game-btn" class="modal-nav-btn prev-btn">&#10094;</button> <!-- Previous Button -->
+          <img id="game-modal-image" src="" alt="Full-screen image">
+          <button id="next-game-btn" class="modal-nav-btn next-btn">&#10095;</button> <!-- Next Button -->
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="content video-gallery">
+    <div class="container-size">
+      <h2 class="sub-title animationScroll">Videos</h2>
+      <div id="game-videos" class="video-gallery-container animationScroll">
+        <!-- Video Thumbnails with captions and descriptions will be dynamically inserted here -->
+      </div>
+    </div>
+    
+    <!-- Modal for displaying full-screen video with caption and description -->
+    <div id="video-gallery-modal" class="video-gallery-modal">
+      <span class="video-gallery-close-btn">&times;</span>
+      <button id="prev-video-btn" class="modal-nav-btn prev-btn">&#10094;</button> <!-- Previous Button -->
+      <div class="video-gallery-modal-content">
+        <video id="video-gallery-modal-video" controls>
+          <source id="video-gallery-video-source" src="" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div id="video-gallery-modal-caption" class="video-gallery-modal-caption"></div>
+        <p id="video-gallery-modal-description" class="video-gallery-modal-description"></p>
+      </div>
+      <button id="next-video-btn" class="modal-nav-btn next-btn">&#10095;</button> <!-- Next Button -->
+    </div>
+  </div>
+  
+  <div class="content players-gallery">
+    <div class="container-size">
+      <h2 class="sub-title animationScroll">Gamers Gallery</h2>
+      <div id="game-gallery" class="image-container gallery-image-container animationScroll">
+          <!-- <div class="thumbnail-wrapper">
+            <img src="../img/games/mlbb-thumbnail.avif" alt="Mobile Legends" class="thumbnail">
+            <div class="cap-desc">
+              <h4 class="caption">Player 1</h4>
+              <p class="description">This is a description of Player 1</p>
+            </div>
+          </div> -->
+      </div>
+      
+      <!-- Players Gallery Modal -->
+      <div id="players-gallery-modal" class="image-modal">
+        <span class="close-btn">&times;</span>
+        <button id="prev-player-btn" class="modal-nav-btn prev-btn">&#10094;</button> <!-- Previous Button -->
+        <img id="player-modal-image" src="" alt="Full-screen image">
+        <button id="next-player-btn" class="modal-nav-btn next-btn">&#10095;</button> <!-- Next Button -->
+      </div>
+    </div>
+  </div>
+  
+
+  <footer></footer> 
+
+  <script src="../js/nav-bar.js"></script>
+  <script type="module" src="../js/mlbb-page.js"></script>
+  <script src="../js/image-modal.js"></script>
+  <script type="module" src="../js/video-modal.js"></script>
+  <script src="../js/animations.js"></script>
+  <script src="../js/footer-linking.js"></script>
+</body>
+</html>

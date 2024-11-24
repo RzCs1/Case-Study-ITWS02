@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/batman-forever" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="icon" href="../img/logo/web-logo2.png" type="image/icon">
+    <title>Contact</title>
+  </head>
+<body>
+  <nav></nav>
+
+  <div class="content">
+  <div class="form-container">
+    <form id="contact-form" action="contact.php" method="POST" class="contact-form animation_in">
+      <h2 class="form-title">Send Message</h2>
+      <label for="name" class="form-label">Name:</label>
+      <input type="text" id="name" name="name" class="form-input">
+  
+      <label for="email" class="form-label">Email:</label>
+      <input type="email" id="email" name="email" class="form-input">
+  
+      <label for="message" class="form-label">Message:</label>
+      <textarea id="message" name="message" class="form-textarea"></textarea>
+  
+      <input id="submit-btn" type="submit" class="form-button" value="Send">
+      <p class="form-message" id="form-message"></p>
+    </form>
+  </div>
+</div>
+
+  <footer></footer>
+
+  <script src="../js/nav-bar.js"></script>
+  <script src="../js/contact-form.js"></script>
+  <script src="../js/animations.js"></script>
+  <script src="../js/footer-linking.js"></script>
+</body>
+</html>
