@@ -3,11 +3,11 @@ document.addEventListener("DOMContentLoaded", function () {
     const formMessage = document.getElementById('form-message');
 
     form.addEventListener('submit', function (event) {
-        // Clear previous messages
-        formMessage.textContent = '';
-        formMessage.style.color = 'red'; // Set the color for error messages
 
-        // Get the values from the form
+        formMessage.textContent = '';
+        formMessage.style.color = 'red'; 
+
+
         const name = document.getElementById('name').value.trim();
         const email = document.getElementById('email').value.trim();
         const message = document.getElementById('message').value.trim();
@@ -31,8 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
             return;
         }
 
-        // If validation passes, you can clear the message or perform further actions
         formMessage.textContent = 'Form submitted successfully!';
-        formMessage.style.color = 'green'; // Set the color for success messages
+        formMessage.style.color = 'green'; 
     });
 });
