@@ -3,7 +3,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const formMessage = document.getElementById('form-message');
 
     form.addEventListener('submit', function (event) {
-
         formMessage.textContent = '';
         formMessage.style.color = 'red'; 
 
@@ -14,23 +13,25 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (!name) {
             formMessage.textContent = 'Please enter your name.';
-            event.preventDefault(); // Prevent form submission
+            event.preventDefault();
             return;
         }
 
         if (!email) {
             formMessage.textContent = 'Please enter your email.';
-            event.preventDefault(); // Prevent form submission
+            event.preventDefault(); 
             return;
         }
 
         if (!message) {
             formMessage.textContent = 'Please enter your message.';
-            event.preventDefault(); // Prevent form submission
+            event.preventDefault(); 
             return;
         }
 
         formMessage.textContent = 'Form submitted successfully!';
         formMessage.style.color = 'green'; 
+
+        event.preventDefault(); 
     });
 });
