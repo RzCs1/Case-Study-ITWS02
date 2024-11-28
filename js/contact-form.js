@@ -33,25 +33,25 @@ document.addEventListener("DOMContentLoaded", function () {
         formMessage.style.color = 'green'; 
 
         event.preventDefault(); 
-
-        const contactForm = document.getElementById('contact-form');
-
-    contactForm.addEventListener('submit', function (event) {
-        event.preventDefault(); // Prevent the form from submitting
-
-        // Get the values from the input fields
-        const name = document.getElementById('name').value;
-        const email = document.getElementById('email').value;
-        const message = document.getElementById('message').value;
-
-        // Show an alert with the user's input
-        alert(`Name: ${name}\nEmail: ${email}\nMessage: ${message}`);
-
-        // Optionally, you can submit the form here if needed
-        // contactForm.submit();
-    });
     });
 });
 
 
-    
+// document.addEventListener('DOMContentLoaded', function () {
+//     const contactForm = document.getElementById('contact-form');
+
+//     contactForm.addEventListener('submit', function (event) {
+//         event.preventDefault(); // Prevent the form from submitting
+
+//         // Get the values from the input fields
+//         const name = document.getElementById('name').value;
+//         const email = document.getElementById('email').value;
+//         const message = document.getElementById('message').value;
+
+//         // Show an alert with the user's input
+//         alert(`Name: ${name}\nEmail: ${email}\nMessage: ${message}`);
+
+//         // Optionally, you can submit the form here if needed
+//         // contactForm.submit();
+//     });
+// });
