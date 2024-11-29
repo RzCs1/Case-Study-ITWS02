@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
             return;
         }
 
-        formMessage.textContent = 'Form submitted successfully!';
+        formMessage.textContent = 'Message submitted successfully!';
         formMessage.style.color = 'green'; 
 
         const inputname = document.getElementById('name').value;
