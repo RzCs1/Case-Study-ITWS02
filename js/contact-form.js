@@ -32,6 +32,13 @@ document.addEventListener("DOMContentLoaded", function () {
         formMessage.textContent = 'Form submitted successfully!';
         formMessage.style.color = 'green'; 
 
+        const inputname = document.getElementById('name').value;
+        const inputemail = document.getElementById('email').value;
+        const inputmessage = document.getElementById('message').value;
+
+        alert(`Name: ${inputname}\nEmail: ${inputemail}\nMessage: ${inputmessage}`);
+
+
         event.preventDefault(); 
     });
 });
