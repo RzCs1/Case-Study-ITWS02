@@ -873,7 +873,7 @@ footer p{
 
   .description-container p {
     text-indent: 1em;
-    padding: 0 2em 2em 2em;
+    padding: 0 0.5em 2em 0.5em;
   }
 }
 
